@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-#include <stdio.h>
-
 int main()
 {
     int Art, Stk;
@@ -20,4 +18,5 @@ int main()
     scanf("%lf", &StkPreis);
     
     printf("\nArtikelnummer    Stueckzahl   Stueckpreis\n%-13d%14d%7s%7.2lf", Art, Stk, str, StkPreis);
+    return 0;
 }
