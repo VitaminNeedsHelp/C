@@ -1,5 +1,5 @@
 # C
-## _The most depressions you will ever find_
+## _The most depression you will ever find_
 
 C is one of the most hated languages at HTL Kaindorf
 
