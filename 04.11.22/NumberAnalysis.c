@@ -12,7 +12,6 @@ int main(void)
 
     if (strcmp(pwdc, "vier")==0)
     {
-        system("cls");
         printf("1. Gerade oder ungerade Zahl?\n2. Quersumme\nAuswahl: ");
         scanf("%d", &p);
 
