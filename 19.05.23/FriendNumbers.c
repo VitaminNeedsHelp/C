@@ -1,6 +1,3 @@
-//A pair of friendly numbers is a pair of different natural numbers, where each number is equal to the sum of the proper divisors of the other number.
-//Create a function for the verification and return the value 1 if it is a pair of friendly numbers, otherwise return the value 0. Similarly, a separate function should be created to calculate the sum of all divisors of a number, which should return the corresponding sum.
-
 #include <stdio.h>
 
 int isFriendlyNumber(int number1, int number2);
