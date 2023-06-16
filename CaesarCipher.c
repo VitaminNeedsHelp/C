@@ -26,7 +26,6 @@ void encryptCaesarCipher(char text[], int key)
     for (i = 0; i < strlen(text); i++)
     {
         text[i] = text[i] + key;
-        printf("%d", text[i]);
     if (text[i] > 122)
     {
         text[i] = text[i] - 91;
