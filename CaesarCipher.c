@@ -9,14 +9,19 @@ int main(void)
 {
     char text[100] = {0};
     int key, letter;
+    
     printf("Bitte geben Sie einen Text ein: ");
     scanf("%[^\n]99s", text);
+
     printf("Bitte geben Sie einen Key ein: ");
     scanf("%d", &key);
+
     letter = countLetter(text);
     encryptCaesarCipher(text, key);
+
     printf("Haeufigkeit des Buchstaben e: %d", letter);
     printf("\nDer verschl\x81sselte Text lautet: %s", text);
+
     return 0;
 }
 
